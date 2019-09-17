@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class FillInTheBlankI {
+	public static void main(String[] arg) {
+		Scanner console = new Scanner(System.in);
+		System.out.println(" Indtast et heltal :");
+		int x = console.nextInt();
+		if (isEven(x)) {
+			System.out.println(x + " er et lige tal.");
+		} else {
+			System.out.println(x + " er et ulige tal.");
+		}
+	}
+
+	private static boolean isEven(int x) {
+			 return x % 2==0;
+	}
+
+}

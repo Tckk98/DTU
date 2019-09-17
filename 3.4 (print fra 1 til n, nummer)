@@ -1,1 +1,25 @@
+import java.util.*;
 
+public class opgave4 {
+	public static void main(String[] args) {
+		System.out.print("Please enter maximum number");
+		Scanner console = new Scanner(System.in);
+		int maximum = console.nextInt();
+		System.out.print(printNumbers(maximum));
+	}
+
+	public static String printNumbers(int maximum) {
+		String result = "";
+		for (int i=1; i<=maximum; i++) {
+		  result=result+"["+i+"]";
+		  
+		}
+		return result;
+		 
+		
+		
+		
+		
+		
+	}
+}

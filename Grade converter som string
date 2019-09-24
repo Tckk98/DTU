@@ -1,0 +1,33 @@
+package uge4;
+
+import java.util.Scanner;
+
+public class Gradeconverter {
+
+	public static void main(String[] args) {
+		Scanner console = new Scanner(System.in);
+		System.out.print("Enter the grade you wish to convert");
+		int thegrade = console.nextInt();
+		if (thegrade == 00 || thegrade == 0) {
+			System.out.print("the grade converted is -3");
+		} else if (thegrade == 03 || thegrade == 5) {
+			System.out.print("The grade converted is 00");
+		} else if (thegrade == 6) {
+			System.out.print("The grade converted is 02");
+		} else if (thegrade == 7) {
+			System.out.print("The grade converted is 4");
+		} else if (thegrade == 8 || thegrade == 9) {
+			System.out.print("The grade converted is 7");
+		} else if (thegrade == 10) {
+			System.out.print("The grade converted is still 10!");
+		} else if (thegrade == 11 || thegrade == 13) {
+			System.out.print("The grade converted is 12");
+		} else { System.out.print("Please enter a valid grade");
+			
+		}
+		
+		
+
+	}
+
+}
